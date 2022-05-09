@@ -30,7 +30,7 @@ Takım 115
 
 ## Product Backlog URL
 
-TBA
+[Trello Backlog Board](https://trello.com/invite/b/c870uJAK/e9aaf0897f155edd7995e583844fb34c/development)
 
 ---
 
