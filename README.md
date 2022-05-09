@@ -6,9 +6,9 @@ Takım 115
 
 ## Takım Elemanları
 
-- Buğra Aras
+- Buğra Aras (Product Owner)
 - Hatice Nur Ruşen
-- Veysel Adnan Gezegin
+- Veysel Adnan Gezegin(Scrum Master)
 
 ## Ürün İsmi
 
