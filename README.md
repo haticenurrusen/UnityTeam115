@@ -50,6 +50,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da göz�
 
 - **Ürün Durumu**: Ekran görüntüleri:
 - Karakter tasarımı
+![Character1 1](https://user-images.githubusercontent.com/92687154/167465300-fffdcbd0-e9b5-495d-a4ba-0e1204c12e5d.png)
 
 - **Sprint Review**: 
 Hikaye, karakterler, harita ve ana karakterin hareketlerine karar verildi. Blocker bir zamana denk geldiği için bu sprintteki bazı görevlerin sonraki sprinte aktarılmasına karar verdik.
