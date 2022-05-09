@@ -36,13 +36,13 @@ Takım 115
 
 # Sprint 1
 
-- **Sprint Notları**: 
+- **Sprint Notları**: Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 10 Puan
 
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 100 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 10 ile başlaması gerektiğine karar verildi.
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, Sarı item'lar devam etmekte olanları temsil etmektedir, Kırmızı item'lar yapılmış olanları temsil etmektedir.
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, Sarı item'lar devam etmekte olanları temsil etmektedir, Yeşil item'lar yapılmış olanları temsil etmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir.
 
@@ -52,7 +52,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da göz�
 - Karakter tasarımı
 
 - **Sprint Review**: 
-Hikayeye karar verildi ... 
+Hikaye, karakterler, harita ve ana karakterin hareketlerine karar verildi. Blocker bir zamana denk geldiği için bu sprintteki bazı görevlerin sonraki sprinte aktarılmasına karar verdik.
 Sprint Review katılımcıları: Buğra Aras, Hatice Nur Ruşen, Veysel Adnan Gezegin
 
 - **Sprint Retrospective:**
