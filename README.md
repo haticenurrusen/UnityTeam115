@@ -47,6 +47,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da göz�
 - **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir.
 
 - **Sprint board update**: Sprint board screenshotları: 
+![ss](https://user-images.githubusercontent.com/92687154/167717481-c15233ce-925f-465f-a24c-23cbfe76b5c4.PNG)
 
 - **Ürün Durumu**: Ekran görüntüleri:
 Karakter tasarımı
