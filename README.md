@@ -40,7 +40,7 @@ Takım 115
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 10 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 100 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 10 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 100 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 10 ile başlaması gerektiğine karar verildi.
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, Sarı item'lar devam etmekte olanları temsil etmektedir, Yeşil item'lar yapılmış olanları temsil etmektedir.
 
