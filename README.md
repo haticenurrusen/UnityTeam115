@@ -44,7 +44,8 @@ Takım 115
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, Sarı item'lar devam etmekte olanları temsil etmektedir, Yeşil item'lar yapılmış olanları temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir.
+- **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir.[Daily Scrum.docx](https://github.com/haticenurrusen/UnityTeam115/files/8664910/Daily.Scrum.docx)
+
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![ss](https://user-images.githubusercontent.com/92687154/167717481-c15233ce-925f-465f-a24c-23cbfe76b5c4.PNG)
