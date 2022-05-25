@@ -48,10 +48,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da göz�
 
 
 - **Sprint board update**: Sprint board screenshotları: 
+![Ekran Alıntısı1](https://user-images.githubusercontent.com/92687154/170223347-5e9ed121-77ab-47f1-82ca-6808677a1477.PNG)
+![Ekran Alıntısı2 0](https://user-images.githubusercontent.com/92687154/170223374-66cc2bb0-bacf-4da7-a656-e095ba63fd8c.PNG)
 ![ss](https://user-images.githubusercontent.com/92687154/167717481-c15233ce-925f-465f-a24c-23cbfe76b5c4.PNG)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-Karakter tasarımı
 ![Character1 1](https://user-images.githubusercontent.com/92687154/167465300-fffdcbd0-e9b5-495d-a4ba-0e1204c12e5d.png)
 
 - **Sprint Review**: 
