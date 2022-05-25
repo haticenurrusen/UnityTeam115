@@ -48,8 +48,6 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Trello Board'da göz�
 
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Ekran Alıntısı1](https://user-images.githubusercontent.com/92687154/170223347-5e9ed121-77ab-47f1-82ca-6808677a1477.PNG)
-![Ekran Alıntısı2 0](https://user-images.githubusercontent.com/92687154/170223374-66cc2bb0-bacf-4da7-a656-e095ba63fd8c.PNG)
 ![ss](https://user-images.githubusercontent.com/92687154/167717481-c15233ce-925f-465f-a24c-23cbfe76b5c4.PNG)
 
 - **Ürün Durumu**: Ekran görüntüleri:
@@ -85,7 +83,9 @@ Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, 
 
 
 - **Sprint board update**: Sprint board screenshotları: 
-- ![Ekran Alıntısı2](https://user-images.githubusercontent.com/92687154/169875174-2f7d580c-71d1-4ad1-8d9c-c8e43222a1dd.PNG)
+![Ekran Alıntısı1](https://user-images.githubusercontent.com/92687154/170223347-5e9ed121-77ab-47f1-82ca-6808677a1477.PNG)
+![Ekran Alıntısı2 0](https://user-images.githubusercontent.com/92687154/170223374-66cc2bb0-bacf-4da7-a656-e095ba63fd8c.PNG)
+![Ekran Alıntısı2](https://user-images.githubusercontent.com/92687154/169875174-2f7d580c-71d1-4ad1-8d9c-c8e43222a1dd.PNG)
 
 - **Ürün Durumu**: Ekran görüntüleri:
 - ![unknown2](https://user-images.githubusercontent.com/92687154/169875137-b75e9272-d509-4c20-918a-8c6a986a183c.png)
