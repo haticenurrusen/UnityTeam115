@@ -4,12 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
 public class MapBehaviour : MonoBehaviour
 {
-
+    public Sprite[] levelSprites;
+    public TextAsset levelData;
     GameObject player;
     Grid grid;
     Tilemap tileMap, objectMap;
@@ -17,9 +19,13 @@ public class MapBehaviour : MonoBehaviour
     bool inputLocked;
     Image levelImage;
     TMP_Text levelText;
-    public Sprite[] levelSprites;
     IDictionary<string, Sprite> spriteDict;
-    public TextAsset levelData;
+    GameObject enter;
+    private List<Vector3Int> locks;
+
+    bool lockHintShown;
+    Vector3Int lockHintPosition;
+    GameObject lockHint;
 
     [Serializable]
     public class Level
@@ -41,9 +47,11 @@ public class MapBehaviour : MonoBehaviour
         player = GameObject.Find("Player");
         grid = GameObject.Find("Grid").GetComponent<Grid>();
         InitializePlayerPosition();
+        InitializeLocks();
         tileMap = GameObject.Find("TileMap").GetComponent<Tilemap>();
         objectMap = GameObject.Find("ObjectMap").GetComponent<Tilemap>();
         levelImage = GameObject.Find("Level").GetComponent<Image>();
+        enter = GameObject.Find("Enter");
         levelText = GameObject.Find("LevelText").GetComponent<TMP_Text>();
     }
 
@@ -53,10 +61,21 @@ public class MapBehaviour : MonoBehaviour
         foreach(Sprite sprite in levelSprites) {
             spriteDict.Add(sprite.name, sprite);
         }
+        enter.SetActive(false);
     }
 
     void InitializePlayerPosition() {
-        player.transform.position = grid.CellToWorld(new Vector3Int(-6, -1, 0));
+        player.transform.position = grid.CellToWorld(new Vector3Int(-9, -2, 0));
+    }
+
+    void InitializeLocks() {
+        lockHint = GameObject.Find("LockHint");
+        lockHint.SetActive(false);
+        lockHintPosition = new Vector3Int(-1, -2, 0);
+        locks = new List<Vector3Int>() {new Vector3Int(0, -2, 0),
+                                        new Vector3Int(3, 0, 0),
+                                        new Vector3Int(-2, 1, 0)};
+        lockHintShown = false;
     }
 
     void OnAim() {
@@ -67,10 +86,16 @@ public class MapBehaviour : MonoBehaviour
         Debug.Log(mousePosition + " <-> " + grid.WorldToCell(mousePosition));
     }
 
+    void OnSelect() {
+        if (enter.activeSelf) {
+            SceneManager.LoadScene(levelText.text);
+        }
+    }
+
     void OnMoveRight() {
         Vector3Int newPosition = grid.WorldToCell(player.transform.position);
         newPosition = new Vector3Int(newPosition.x+1, newPosition.y, newPosition.z);
-        if (tileMap.GetTile(newPosition) != null && !inputLocked) {
+        if (tileMap.GetTile(newPosition) != null && !locks.Contains(newPosition) && !inputLocked) {
             inputLocked = true;
             StartCoroutine(MoveToPosition(grid.CellToWorld(newPosition)));
             CheckNewPosition(newPosition);
@@ -80,7 +105,7 @@ public class MapBehaviour : MonoBehaviour
     void OnMoveLeft() {
         Vector3Int newPosition = grid.WorldToCell(player.transform.position);
         newPosition = new Vector3Int(newPosition.x-1, newPosition.y, newPosition.z);
-        if (tileMap.GetTile(newPosition) != null && !inputLocked) {
+        if (tileMap.GetTile(newPosition) != null && !locks.Contains(newPosition) && !inputLocked) {
             inputLocked = true;
             StartCoroutine(MoveToPosition(grid.CellToWorld(newPosition)));
             CheckNewPosition(newPosition);
@@ -90,7 +115,7 @@ public class MapBehaviour : MonoBehaviour
     void OnMoveUp() {
         Vector3Int newPosition = grid.WorldToCell(player.transform.position);
         newPosition = new Vector3Int(newPosition.x, newPosition.y+1, newPosition.z);
-        if (tileMap.GetTile(newPosition) != null && !inputLocked) {
+        if (tileMap.GetTile(newPosition) != null && !locks.Contains(newPosition) && !inputLocked) {
             inputLocked = true;
             StartCoroutine(MoveToPosition(grid.CellToWorld(newPosition)));
             CheckNewPosition(newPosition);
@@ -100,7 +125,7 @@ public class MapBehaviour : MonoBehaviour
     void OnMoveDown() {
         Vector3Int newPosition = grid.WorldToCell(player.transform.position);
         newPosition = new Vector3Int(newPosition.x, newPosition.y-1, newPosition.z);
-        if (tileMap.GetTile(newPosition) != null && !inputLocked) {
+        if (tileMap.GetTile(newPosition) != null&& !locks.Contains(newPosition) && !inputLocked) {
             inputLocked = true;
             StartCoroutine(MoveToPosition(grid.CellToWorld(newPosition)));
             CheckNewPosition(newPosition);
@@ -136,5 +161,19 @@ public class MapBehaviour : MonoBehaviour
             levelImage.sprite = spriteDict["nothing"];
             levelText.text = "Nowhere";
         }
+
+        if (!lockHintShown && newPosition == lockHintPosition) {
+            StartCoroutine(ShowLockHint());
+        }
+
+        enter.SetActive(levelFound);
+    }
+
+    IEnumerator ShowLockHint() {
+        lockHint.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        lockHint.SetActive(false);
+        lockHintShown = true;
+        yield return null;  
     }
 }

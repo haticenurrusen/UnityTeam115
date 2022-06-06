@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Menu.unity
+    guid: 9bef823437ee4ac4798956d5d52d0733
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: c7658d3c55c7a274c90639b7808aa329
+  - enabled: 1
+    path: Assets/Scenes/The Village.unity
+    guid: 7ee9bc62c21fb1c4f80689b8b35bf2a5
+  - enabled: 1
+    path: Assets/Scenes/Castle of The Spider Queen.unity
+    guid: e9ec14f55be70bf4090f4cca7da5b988
   m_configObjects: {}
