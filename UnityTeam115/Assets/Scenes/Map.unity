@@ -1999,7 +1999,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: 99d73a79-3283-4b04-96d6-0040305a8d36
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 1277727694}
 --- !u!114 &1759877100
