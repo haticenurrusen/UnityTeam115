@@ -98,3 +98,38 @@ Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, 
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
   - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
+
+---
+
+# Sprint 3
+
+---
+- **Sprint Notları**: Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 40 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 100 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde bu sprint'in en azından 40 puana tamamlanmasına karar verildi. 
+
+- **Backlog düzeni ve Story seçimleri**: Story'ler yapılacak işlere (task'lere) göre yeniden ayarlanmıştır. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır.
+
+Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, Sarı item'lar devam etmekte olanları temsil etmektedir, Yeşil item'lar yapılmış olanları temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının Discord ve Whatsapp üzerinden yapılmasına karar verilmiştir.
+
+- **Sprint board update**: Sprint board screenshotları: 
+- ![1](https://user-images.githubusercontent.com/92687154/172236749-4add1f80-b4a8-40d4-8f2f-e9ca6403ebfc.PNG)
+- ![2](https://user-images.githubusercontent.com/92687154/172236772-9d2598e3-5158-4eac-8ca8-f991b2df722e.PNG)
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+- **Sprint Review**: Player animation, Map gibi tasarımsal bölümleri tamamladık. Blocker bir zamana denk geldik ve istenilen ilerlemeye ulaşamadık. 
+
+- **Sprint Review katılımcıları**: Buğra Aras, Veysel Adnan Gezegin
+
+- **Sprint Retrospective:**
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
+  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
+
+- Bazı notlar: Bu sprintte büyük oranda bir iletişimsizlik olduğundan dolayı oyunu bitme aşamasına getiremedik. 
+
