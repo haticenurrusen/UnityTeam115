@@ -3,7 +3,7 @@
 Takım 115
 
 # Ürün İle İlgili Bilgiler
-
+Bitmedi
 ## Takım Elemanları
 
 - Buğra Aras (Product Owner)
@@ -12,7 +12,7 @@ Takım 115
 
 ## Ürün İsmi
 
---TBA--
+Adventure Through the Castle
 
 ## Ürün Açıklaması
 
@@ -129,8 +129,7 @@ Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, 
 - **Sprint Review katılımcıları**: Buğra Aras, Veysel Adnan Gezegin
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
+  - Sprint Retropective için takımla buluşamadık.
 
 - Bazı notlar: Bu sprintte büyük oranda bir iletişimsizlik olduğundan dolayı oyunu bitme aşamasına getiremedik. 
 
