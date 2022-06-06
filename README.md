@@ -114,7 +114,8 @@ Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, 
 
 Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, Sarı item'lar devam etmekte olanları temsil etmektedir, Yeşil item'lar yapılmış olanları temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının Discord ve Whatsapp üzerinden yapılmasına karar verilmiştir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının Discord ve Whatsapp üzerinden yapılmasına karar verilmiştir.[Daily Scrum 3.docx](https://github.com/haticenurrusen/UnityTeam115/files/8847595/Daily.Scrum.3.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
 - ![1](https://user-images.githubusercontent.com/92687154/172236749-4add1f80-b4a8-40d4-8f2f-e9ca6403ebfc.PNG)
