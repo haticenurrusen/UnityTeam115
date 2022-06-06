@@ -123,7 +123,8 @@ Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, 
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-- ![Cha idle, run and attack123](https://user-images.githubusercontent.com/92687154/172240590-8ee0bc9d-0faf-47dc-ace9-33088e216d45.gif)
+- ![Cha idle, run and attack123](https://user-images.githubusercontent.com/92687154/172240590-8ee0bc9d-0faf-47dc-ace9-33088e216d45.gif)![Map](https://user-images.githubusercontent.com/92687154/172240793-17692ddf-8047-4a68-99ee-b2cd043c2a01.png)
+
 
 
 - **Sprint Review**: Player animation, Map gibi tasarımsal bölümleri tamamladık. Blocker bir zamana denk geldik ve istenilen ilerlemeye ulaşamadık. 
