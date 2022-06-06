@@ -124,7 +124,10 @@ Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, 
 
 - **Ürün Durumu**: Ekran görüntüleri:
 - ![Cha idle, run and attack123](https://user-images.githubusercontent.com/92687154/172240590-8ee0bc9d-0faf-47dc-ace9-33088e216d45.gif)![Map](https://user-images.githubusercontent.com/92687154/172240793-17692ddf-8047-4a68-99ee-b2cd043c2a01.png)
-![unknown](https://user-images.githubusercontent.com/92687154/172248359-06996290-03b4-438f-ae18-7e0bd3d5f739.png)
+![unknown](https://user-images.githubusercontent.com/92687154/172248359-06996290-03b4-438f-ae18-7e0bd3d5f739.png)![unknown (3)](https://user-images.githubusercontent.com/92687154/172252921-4f534db7-d802-4ca7-afd2-4551c14396b5.png)
+![unknown (1)](https://user-images.githubusercontent.com/92687154/172252925-f65213e9-30cf-4615-9341-ad445c4bd61b.png)
+![unknown (2)](https://user-images.githubusercontent.com/92687154/172252929-d0e51643-b8b8-4846-88a8-112509345b41.png)
+
 
 
 
