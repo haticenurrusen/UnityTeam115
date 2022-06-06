@@ -131,7 +131,7 @@ Trello Board'da gözüken Mavi item'lar yapılacak işleri (task) gösterirken, 
 
 
 
-- **Sprint Review**: Player animation, Map gibi tasarımsal bölümleri tamamladık. Blocker bir zamana denk geldik ve istenilen ilerlemeye ulaşamadık. 
+- **Sprint Review**: Player animation, Map gibi tasarımsal bölümleri ve UI'ı tamamladık. Blocker bir zamana denk geldik ve istenilen ilerlemeye ulaşamadık. 
 
 - **Sprint Review katılımcıları**: Buğra Aras, Veysel Adnan Gezegin
 
